@@ -1,0 +1,17 @@
+{
+  "name": "js-ioc-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:decorator": "tsc && node dist/decorator.js",
+    "dev:ioc": "tsc && node dist/ioc.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^5.2.2"
+  }
+}
